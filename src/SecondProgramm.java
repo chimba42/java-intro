@@ -8,10 +8,12 @@ public class SecondProgramm {
         Person p2 = new Person("Viktor", "Tsoy");
 
         final Person p3 = p2;
-
         p2.secondName = "Popov";
 
         System.out.println(p3.secondName);
+
+        System.out.println("" + p3.equals(p2));
+        System.out.println(p2);
 
 
 
