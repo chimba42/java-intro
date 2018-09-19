@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Person {
     String firstName;
     String secondName;
@@ -30,7 +32,7 @@ public class Person {
     }
 
     {
-        println(count + "Person was created");
+        println(count + "lesson2.Person was created");
     }
 
     private static void println(String out){
